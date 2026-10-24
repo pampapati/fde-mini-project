@@ -1,0 +1,29 @@
+{
+    "rubric": {
+        "target_industries": [
+            "Technology", 
+            "SaaS", 
+            "Finance", 
+            "Healthcare", 
+            "Logistics", 
+            "Manufacturing", 
+            "EdTech", 
+            "FinTech"
+        ],
+        "ideal_company_size": {
+            "min": 50, 
+            "max": 5000
+        },
+        "high_intent_sources": [
+            "Inbound demo request", 
+            "Contact Us Form", 
+            "Inbound demo requests"
+        ]
+    },
+    "llm_settings": {
+        "model": "gemini-3.8-flash",
+        "batch_size": 10,
+        "max_retries": 3,
+        "retry_delay_seconds": 2
+    }
+}
